@@ -1,0 +1,2828 @@
+{
+  "archivos_analizados": 32,
+  "total_lineas": 4946,
+  "problemas_por_severidad": {
+    "critico": 2,
+    "alto": 1,
+    "medio": 165,
+    "bajo": 184
+  },
+  "problemas": [
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 7,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 135,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 3 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 74,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 93,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 5 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 94,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 5 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 211,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 4 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 400,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 14,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 3 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 15,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 4 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 16,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 3 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 44,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 67,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 72,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 188,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 193,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 215,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 231,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 283,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 5,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 8,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 9,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 49,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 55,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 65,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 72,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 86,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 91,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 96,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 97,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 98,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 99,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 100,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 101,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 102,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 103,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 6,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 22,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 32,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 130,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 144,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 152,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 220,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 224,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 234,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 235,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 241,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 242,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 243,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 244,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 245,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 246,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 247,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 302,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 330,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 453,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 477,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 9 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 478,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 5 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 479,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 5 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 480,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 5 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 481,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 5 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 482,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 5 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 483,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 9 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 520,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 31,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 137,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 142,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 150,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 173,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 239,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 307,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 383,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 432,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 452,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 4 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 453,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 4 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 454,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 4 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 455,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 4 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 456,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 4 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 515,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 524,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_db.py",
+      "linea": 76,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_db.py",
+      "linea": 213,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_db.py",
+      "linea": 268,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 69,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 113,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 120,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 135,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 140,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 145,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 172,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 216,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 40,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 77,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 88,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 140,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 171,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 8 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 172,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 7 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 173,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 6 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 174,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 232,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 6 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 246,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 247,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 498,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 503,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 524,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 529,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 575,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 48,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 53,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 130,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 165,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 186,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 201,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 264,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 305,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 388,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 419,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 448,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 476,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 501,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 534,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 554,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_main.py",
+      "linea": 11,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./hija_main.py",
+      "linea": 32,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 5,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 20,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 56,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 81,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 122,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 127,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./shared/logger.py",
+      "linea": 32,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./shared/logger.py",
+      "linea": 92,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./shared/logger.py",
+      "linea": 101,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./shared/logger.py",
+      "linea": 108,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./shared/logger.py",
+      "linea": 116,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./shared/logger.py",
+      "linea": 146,
+      "severidad": "medio",
+      "tipo": "codigo_duplicado",
+      "descripcion": "Código duplicado encontrado en 2 ubicaciones",
+      "sugerencia": "Refactorizar en función reutilizable"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 317,
+      "severidad": "alto",
+      "tipo": "complejidad_alta",
+      "descripcion": "Función '_detectar_variables_no_usadas' tiene complejidad 13",
+      "sugerencia": "Simplificar lógica o dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 277,
+      "severidad": "medio",
+      "tipo": "muchos_argumentos",
+      "descripcion": "Función 'crear_objetivo' tiene 9 argumentos",
+      "sugerencia": "Considerar usar dataclass o diccionario"
+    },
+    {
+      "archivo": "./madre_db.py",
+      "linea": 396,
+      "severidad": "medio",
+      "tipo": "muchos_argumentos",
+      "descripcion": "Función 'registrar_evaluacion' tiene 9 argumentos",
+      "sugerencia": "Considerar usar dataclass o diccionario"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 17,
+      "severidad": "medio",
+      "tipo": "clase_muy_larga",
+      "descripcion": "Clase 'AnalizadorCodigo' tiene 26 métodos",
+      "sugerencia": "Dividir en clases más pequeñas con responsabilidades únicas"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 242,
+      "severidad": "critico",
+      "tipo": "uso_eval",
+      "descripcion": "Uso de eval() es peligroso",
+      "sugerencia": "Usar alternativas más seguras"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 243,
+      "severidad": "critico",
+      "tipo": "uso_exec",
+      "descripcion": "Uso de exec() es peligroso",
+      "sugerencia": "Usar alternativas más seguras"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 389,
+      "severidad": "bajo",
+      "tipo": "variable_no_usada",
+      "descripcion": "Variable 'lineas' definida pero no usada",
+      "sugerencia": "Remover o usar la variable"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 80,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función '_inicializar_tablas' tiene 122 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 38,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función '_crear_interfaz' tiene 98 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 150,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función 'mostrar_dashboard' tiene 73 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 252,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función 'mostrar_alumnos' tiene 77 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 354,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función 'dialogo_nuevo_alumno' tiene 98 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 37,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función '_crear_pantalla_login' tiene 83 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 168,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función '_crear_pantalla_principal' tiene 70 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 245,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función 'mostrar_inicio' tiene 61 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./madre_db.py",
+      "linea": 77,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función '_inicializar_base_datos' tiene 140 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 70,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función 'translate_readme' tiene 160 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./shared/logger.py",
+      "linea": 48,
+      "severidad": "medio",
+      "tipo": "funcion_muy_larga",
+      "descripcion": "Función 'configurar_logging' tiene 59 líneas",
+      "sugerencia": "Dividir en funciones más pequeñas"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 6,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Clase 'CicloIterativo' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 137,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'main' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 8,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 13,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'ejecutar_analisis' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 23,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'ejecutar_correcciones' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 39,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'aplicar_correcciones_manuales_criticas' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 46,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'verificar_calidad' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 59,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'ejecutar_ciclo' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 99,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'mostrar_resumen_final' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 13,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Clase 'ProgressPhoto' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 24,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Clase 'Objetivo' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 41,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Clase 'Logro' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 53,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Clase 'MensajeEnriquecido' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 65,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Clase 'GestorFuncionalidadesAvanzadas' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 67,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 75,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_get_connection' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 80,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_inicializar_tablas' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 204,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'agregar_foto_progreso' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 227,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'obtener_linea_tiempo_progreso' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 250,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'comparar_fotos_progreso' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 277,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'crear_objetivo' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 303,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'actualizar_progreso_objetivo' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 336,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'obtener_objetivos' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 359,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_otorgar_logro' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 383,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_verificar_logros_progreso' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 401,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_otorgar_logro_objetivo' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 406,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'obtener_logros' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 426,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'enviar_mensaje_enriquecido' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 454,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'obtener_mensajes_enriquecidos' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 478,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'registrar_sesion_entrenamiento' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 497,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'registrar_metricas_recuperacion' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 516,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'obtener_analisis_rendimiento' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 552,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_procesar_cola' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 10,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Clase 'PanelProgreso' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 12,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 29,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_tab_fotos' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 39,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_cargar_fotos_progreso' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 54,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_tarjeta_foto' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 81,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_mostrar_foto_completa' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 100,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_mostrar_dialogo_nueva_foto' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 149,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_tab_objetivos' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 159,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_cargar_objetivos' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 173,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_tarjeta_objetivo' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 208,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_mostrar_dialogo_nuevo_objetivo' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 258,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_tab_logros' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 267,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_cargar_logros' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 286,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_seccion_categoria' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 299,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_badge_logro' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 314,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_tab_analisis' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 333,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_actualizar_analisis' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 357,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_tarjeta_ejercicio' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 376,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '_crear_tarjeta_recuperacion' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 130,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'guardar' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./gui_avanzada.py",
+      "linea": 239,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'crear' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 24,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 68,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./hija_comms.py",
+      "linea": 144,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 23,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./madre_gui.py",
+      "linea": 408,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'guardar' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./hija_views.py",
+      "linea": 21,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./madre_db.py",
+      "linea": 52,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 5,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Clase 'DocumentTranslator' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 70,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'translate_readme' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 233,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'main' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 7,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 47,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'translate_markdown_file' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 56,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'translate_all_docs' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 20,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función '__init__' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./madre_server.py",
+      "linea": 70,
+      "severidad": "bajo",
+      "tipo": "falta_documentacion",
+      "descripcion": "Función 'validar_nombre' sin docstring",
+      "sugerencia": "Agregar docstring explicativo"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 14,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 15,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 16,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 24,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 25,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 27,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 43,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 60,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 61,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 62,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 63,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 64,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 70,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 71,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 72,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 73,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 74,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 75,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 76,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 78,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 87,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 90,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 93,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 94,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 100,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 101,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 102,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 104,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 108,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 109,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 111,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 120,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 123,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 125,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 127,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 129,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 130,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 134,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./funcionalidades_avanzadas.py",
+      "linea": 561,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 69,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 70,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 71,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 75,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 81,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 82,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 83,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 84,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 85,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 99,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 102,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./madre_main.py",
+      "linea": 104,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 62,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 67,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 230,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 234,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 235,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 236,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 240,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 241,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 242,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 37,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 38,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 39,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 44,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 71,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 74,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 76,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 444,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 448,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 555,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 556,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 557,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 559,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 560,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 561,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 562,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 563,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 564,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 565,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 566,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 572,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 573,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 583,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 586,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 587,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 588,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./hija_main.py",
+      "linea": 27,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./hija_main.py",
+      "linea": 28,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./hija_main.py",
+      "linea": 29,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./hija_main.py",
+      "linea": 44,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./hija_main.py",
+      "linea": 47,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./hija_main.py",
+      "linea": 49,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 84,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 87,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 93,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 94,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 95,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 96,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 97,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 98,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 99,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 100,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 101,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 102,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 103,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./config/settings.py",
+      "linea": 104,
+      "severidad": "bajo",
+      "tipo": "uso_print",
+      "descripcion": "Usar logging en lugar de print()",
+      "sugerencia": "Reemplazar con logger.info() o logger.debug()"
+    },
+    {
+      "archivo": "./ciclo_iterativo.py",
+      "linea": 35,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 152,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 188,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 233,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 259,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 283,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 311,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 349,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 383,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 411,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 435,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 451,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 472,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 496,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 522,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 98,
+      "severidad": "medio",
+      "tipo": "except_generico",
+      "descripcion": "Except genérico captura todas las excepciones",
+      "sugerencia": "Especificar tipo de excepción (Ej: except ValueError:)"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 73,
+      "severidad": "bajo",
+      "tipo": "linea_muy_larga",
+      "descripcion": "Línea de 145 caracteres",
+      "sugerencia": "Dividir en múltiples líneas"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 85,
+      "severidad": "bajo",
+      "tipo": "linea_muy_larga",
+      "descripcion": "Línea de 139 caracteres",
+      "sugerencia": "Dividir en múltiples líneas"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 89,
+      "severidad": "bajo",
+      "tipo": "linea_muy_larga",
+      "descripcion": "Línea de 149 caracteres",
+      "sugerencia": "Dividir en múltiples líneas"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 92,
+      "severidad": "bajo",
+      "tipo": "linea_muy_larga",
+      "descripcion": "Línea de 129 caracteres",
+      "sugerencia": "Dividir en múltiples líneas"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 93,
+      "severidad": "bajo",
+      "tipo": "linea_muy_larga",
+      "descripcion": "Línea de 139 caracteres",
+      "sugerencia": "Dividir en múltiples líneas"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 94,
+      "severidad": "bajo",
+      "tipo": "linea_muy_larga",
+      "descripcion": "Línea de 129 caracteres",
+      "sugerencia": "Dividir en múltiples líneas"
+    },
+    {
+      "archivo": "./translate_docs.py",
+      "linea": 107,
+      "severidad": "bajo",
+      "tipo": "linea_muy_larga",
+      "descripcion": "Línea de 134 caracteres",
+      "sugerencia": "Dividir en múltiples líneas"
+    },
+    {
+      "archivo": "./code_analyzer.py",
+      "linea": 432,
+      "severidad": "bajo",
+      "tipo": "linea_muy_larga",
+      "descripcion": "Línea de 129 caracteres",
+      "sugerencia": "Dividir en múltiples líneas"
+    }
+  ]
+}
