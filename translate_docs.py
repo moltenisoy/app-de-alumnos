@@ -1,143 +1,73 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Sistema de Traducción Automática de Documentación
-Traduce toda la documentación del repositorio al español.
-"""
-
 import re
 from pathlib import Path
-from typing import Dict
 
 
 class DocumentTranslator:
-    """Traductor de documentación de inglés a español."""
-    
+
     def __init__(self):
-        # Diccionario de traducciones técnicas
-        self.translations = {
-            # Títulos y encabezados
-            'Network Configuration & Troubleshooting Guide': 'Guía de Configuración de Red y Solución de Problemas',
-            'Overview': 'Descripción General',
-            'Quick Diagnostics': 'Diagnósticos Rápidos',
-            'Check Connection Status': 'Verificar Estado de Conexión',
-            'Common Connection Issues': 'Problemas Comunes de Conexión',
-            'Cannot Connect to Server': 'No se Puede Conectar al Servidor',
-            'Symptoms': 'Síntomas',
-            'Solutions': 'Soluciones',
-            'Firewall Blocking Connection': 'Firewall Bloqueando la Conexión',
-            
-            # Términos técnicos
-            'Personal Trainer': 'Entrenador Personal',
-            'app': 'aplicación',
-            'server': 'servidor',
-            'client': 'cliente',
-            'database': 'base de datos',
-            'connection': 'conexión',
-            'offline': 'sin conexión',
-            'online': 'en línea',
-            'sync': 'sincronizar',
-            'syncing': 'sincronizando',
-            'synchronization': 'sincronización',
-            'login': 'inicio de sesión',
-            'logout': 'cerrar sesión',
-            'username': 'nombre de usuario',
-            'password': 'contraseña',
-            'settings': 'configuración',
-            'configuration': 'configuración',
-            'troubleshooting': 'solución de problemas',
-            'diagnostics': 'diagnósticos',
-            'firewall': 'cortafuegos',
-            'antivirus': 'antivirus',
-            'network': 'red',
-            'port': 'puerto',
-            'API': 'API',
-            'endpoint': 'endpoint',
-            'request': 'solicitud',
-            'response': 'respuesta',
-            'timeout': 'tiempo de espera',
-            'error': 'error',
-            'warning': 'advertencia',
-            'success': 'éxito',
-            'failed': 'fallido',
-            'failure': 'falla',
-            
-            # Frases comunes
-            'This guide helps': 'Esta guía ayuda a',
-            'The app now includes': 'La aplicación ahora incluye',
-            'To check your': 'Para verificar su',
-            'Open the app': 'Abrir la aplicación',
-            'Look for': 'Buscar',
-            'Click on': 'Hacer clic en',
-            'Review the': 'Revisar el',
-            'Ensure you have': 'Asegúrese de tener',
-            'Try accessing': 'Intente acceder a',
-            'Check that': 'Verificar que',
-            'Verify Server is Running': 'Verificar que el Servidor Esté Ejecutándose',
-            
-            # Git y desarrollo
-            'commit': 'confirmar',
-            'push': 'enviar',
-            'pull': 'obtener',
-            'branch': 'rama',
-            'merge': 'fusionar',
-            'repository': 'repositorio',
-            'clone': 'clonar',
-            
-            # GUI
-            'button': 'botón',
-            'menu': 'menú',
-            'option': 'opción',
-            'window': 'ventana',
-            'dialog': 'diálogo',
-            'tab': 'pestaña',
-            'panel': 'panel',
-            'label': 'etiqueta',
-            'field': 'campo',
-            'form': 'formulario',
-        }
-    
-    def translate_markdown_file(self, file_path: Path) -> str:
-        """Traduce un archivo markdown."""
+        self.translations = {'Network Configuration & Troubleshooting Guide':
+            'Guía de Configuración de Red y Solución de Problemas',
+            'Overview': 'Descripción General', 'Quick Diagnostics':
+            'Diagnósticos Rápidos', 'Check Connection Status':
+            'Verificar Estado de Conexión', 'Common Connection Issues':
+            'Problemas Comunes de Conexión', 'Cannot Connect to Server':
+            'No se Puede Conectar al Servidor', 'Symptoms': 'Síntomas',
+            'Solutions': 'Soluciones', 'Firewall Blocking Connection':
+            'Firewall Bloqueando la Conexión', 'Personal Trainer':
+            'Entrenador Personal', 'app': 'aplicación', 'server':
+            'servidor', 'client': 'cliente', 'database': 'base de datos',
+            'connection': 'conexión', 'offline': 'sin conexión', 'online':
+            'en línea', 'sync': 'sincronizar', 'syncing': 'sincronizando',
+            'synchronization': 'sincronización', 'login':
+            'inicio de sesión', 'logout': 'cerrar sesión', 'username':
+            'nombre de usuario', 'password': 'contraseña', 'settings':
+            'configuración', 'configuration': 'configuración',
+            'troubleshooting': 'solución de problemas', 'diagnostics':
+            'diagnósticos', 'firewall': 'cortafuegos', 'antivirus':
+            'antivirus', 'network': 'red', 'port': 'puerto', 'API': 'API',
+            'endpoint': 'endpoint', 'request': 'solicitud', 'response':
+            'respuesta', 'timeout': 'tiempo de espera', 'error': 'error',
+            'warning': 'advertencia', 'success': 'éxito', 'failed':
+            'fallido', 'failure': 'falla', 'This guide helps':
+            'Esta guía ayuda a', 'The app now includes':
+            'La aplicación ahora incluye', 'To check your':
+            'Para verificar su', 'Open the app': 'Abrir la aplicación',
+            'Look for': 'Buscar', 'Click on': 'Hacer clic en', 'Review the':
+            'Revisar el', 'Ensure you have': 'Asegúrese de tener',
+            'Try accessing': 'Intente acceder a', 'Check that':
+            'Verificar que', 'Verify Server is Running':
+            'Verificar que el Servidor Esté Ejecutándose', 'commit':
+            'confirmar', 'push': 'enviar', 'pull': 'obtener', 'branch':
+            'rama', 'merge': 'fusionar', 'repository': 'repositorio',
+            'clone': 'clonar', 'button': 'botón', 'menu': 'menú', 'option':
+            'opción', 'window': 'ventana', 'dialog': 'diálogo', 'tab':
+            'pestaña', 'panel': 'panel', 'label': 'etiqueta', 'field':
+            'campo', 'form': 'formulario'}
+
+    def translate_markdown_file(self, file_path: Path) ->str:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
-        
-        # Aplicar traducciones
         translated = content
         for en, es in self.translations.items():
-            # Usar regex para respetar mayúsculas/minúsculas
-            translated = re.sub(
-                r'\b' + re.escape(en) + r'\b',
-                es,
-                translated,
-                flags=re.IGNORECASE
-            )
-        
+            translated = re.sub('\\b' + re.escape(en) + '\\b', es,
+                translated, flags=re.IGNORECASE)
         return translated
-    
+
     def translate_all_docs(self):
-        """Traduce todos los archivos de documentación."""
-        md_files = [
-            'NETWORK_TROUBLESHOOTING.md',
-            'GYM_MANAGEMENT_FEATURES.md',
-            'IMPLEMENTATION_SUMMARY.md'
-        ]
-        
+        md_files = ['NETWORK_TROUBLESHOOTING.md',
+            'GYM_MANAGEMENT_FEATURES.md', 'IMPLEMENTATION_SUMMARY.md']
         for md_file in md_files:
             file_path = Path(md_file)
             if file_path.exists():
-                print(f"Traduciendo {md_file}...")
+                print(f'Traduciendo {md_file}...')
                 translated = self.translate_markdown_file(file_path)
-                
-                # Guardar versión traducida
-                output_path = file_path.parent / f"{file_path.stem}_ES.md"
+                output_path = file_path.parent / f'{file_path.stem}_ES.md'
                 with open(output_path, 'w', encoding='utf-8') as f:
                     f.write(translated)
-                print(f"  ✓ Guardado en {output_path}")
+                print(f'  ✓ Guardado en {output_path}')
 
 
 def translate_readme():
-    """Traduce el README principal manteniendo estructura."""
     readme_es = """# Sistema de Gestión de Gimnasios
 
 Un sistema integral de gestión de gimnasios con arquitectura padre-hijo para administración profesional de gimnasios y participación de miembros.
@@ -295,27 +225,23 @@ El ejecutable estará en la carpeta `dist/`.
 
 Este proyecto es un sistema de demostración y prototipo educativo para gestión de gimnasios.
 """
-    
     with open('README_ES.md', 'w', encoding='utf-8') as f:
         f.write(readme_es)
-    
-    print("✓ README traducido a español: README_ES.md")
+    print('✓ README traducido a español: README_ES.md')
 
 
 def main():
-    """Función principal."""
-    print("\n" + "="*80)
-    print("🌐 SISTEMA DE TRADUCCIÓN DE DOCUMENTACIÓN AL ESPAÑOL")
-    print("="*80 + "\n")
-    
+    print('\n' + '=' * 80)
+    print('🌐 SISTEMA DE TRADUCCIÓN DE DOCUMENTACIÓN AL ESPAÑOL')
+    print('=' * 80 + '\n')
     translator = DocumentTranslator()
     translator.translate_all_docs()
     translate_readme()
-    
-    print("\n" + "="*80)
-    print("✅ TRADUCCIÓN DE DOCUMENTACIÓN COMPLETADA")
-    print("="*80 + "\n")
+    print('\n' + '=' * 80)
+    print('✅ TRADUCCIÓN DE DOCUMENTACIÓN COMPLETADA')
+    print('=' * 80 + '\n')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
+
